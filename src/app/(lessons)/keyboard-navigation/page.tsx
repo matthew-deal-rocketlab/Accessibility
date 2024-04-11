@@ -44,8 +44,7 @@ export default async function Page() {
           <a
             className="text-blue-400 underline"
             href="https://www.w3.org/WAI/ARIA/apg/patterns/">
-            {' '}
-            ARIA patterns{' '}
+            ARIA patterns
           </a>
         </Article>
       </section>
