@@ -8,7 +8,7 @@ export default function Page() {
         <Article>
           <p>
             Colour contrast is the difference in brightness between the text and
-            the background. Its important to ensure that text is readable by
+            the background. It's important to ensure that text is readable by
             everyone, including those with visual impairments.
           </p>
           <p>
