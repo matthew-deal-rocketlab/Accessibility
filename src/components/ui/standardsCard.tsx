@@ -12,9 +12,9 @@ const WCAGStandardsCard: React.FC<WCAGStandardsCardProps> = ({
   standards,
 }) => {
   return (
-    <Card className="max-w-xs space-y-4 overflow-hidden rounded-lg border-2 bg-zinc-800 p-6 shadow-lg *:text-white">
-      <HeaderTag className="text-lg font-bold " level="h2" text={title} />
-      <ul className="prose  list-disc space-y-2 pl-5 ">
+    <Card className="max-w-sm space-y-4 overflow-hidden rounded-lg border-2 bg-zinc-800 p-6 shadow-lg *:text-white">
+      <HeaderTag className="text-xl font-bold " level="h2" text={title} />
+      <ul className="prose list-disc space-y-2 pl-5 text-lg ">
         {standards.map((standard, index) => (
           <li key={index}>{standard}</li>
         ))}
