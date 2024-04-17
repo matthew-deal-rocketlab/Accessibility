@@ -12,6 +12,12 @@ export default function Page() {
 
   return (
     <main>
+      <a
+        target="_blank"
+        className="text-blue-500 underline"
+        href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques">
+        Aria attributes{' '}
+      </a>
       <section className="mx-auto mt-44 max-w-sm p-8">
         <div className="flex items-center space-x-4">
           <div
