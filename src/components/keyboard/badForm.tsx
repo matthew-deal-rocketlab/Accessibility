@@ -52,11 +52,15 @@ export default function BadForm() {
             name="username"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Username</FormLabel>
+                <FormLabel className="text-gray-600">Username</FormLabel>
                 <FormControl>
-                  <Input placeholder="Email" {...field} />
+                  <Input
+                    tabIndex={1}
+                    placeholder="Username"
+                    {...field}
+                    className="border-none placeholder:text-gray-700"
+                  />
                 </FormControl>
-                <FormMessage />
               </FormItem>
             )}
           />
@@ -65,11 +69,15 @@ export default function BadForm() {
             name="password"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Password</FormLabel>
+                <FormLabel className="text-gray-600">Password</FormLabel>
                 <FormControl>
-                  <Input placeholder="Password" {...field} />
+                  <Input
+                    tabIndex={3}
+                    placeholder="Password"
+                    {...field}
+                    className="border-none placeholder:text-gray-700"
+                  />
                 </FormControl>
-                <FormMessage />
               </FormItem>
             )}
           />
@@ -78,15 +86,23 @@ export default function BadForm() {
             name="confirmPassword"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Confirm Password</FormLabel>
+                <FormLabel className="text-gray-600">
+                  Confirm Password
+                </FormLabel>
                 <FormControl>
-                  <Input placeholder="Confirm Password" {...field} />
+                  <Input
+                    tabIndex={2}
+                    placeholder="Confirm Password"
+                    className="border-none placeholder:text-gray-700"
+                    {...field}
+                  />
                 </FormControl>
-                <FormMessage />
               </FormItem>
             )}
           />
-          <Button type="submit">Submit</Button>
+          <Button tabIndex={4} type="submit">
+            Submit
+          </Button>
         </form>
       </Form>
     </section>

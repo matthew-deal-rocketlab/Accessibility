@@ -56,7 +56,7 @@ export default function GoodForm() {
               <FormItem>
                 <FormLabel>Username</FormLabel>
                 <FormControl>
-                  <GoodInput field={field} placeHolder="Email" />
+                  <GoodInput field={field} placeHolder="Username" />
                 </FormControl>
                 <FormMessage />
               </FormItem>

@@ -74,6 +74,7 @@ export default async function Page() {
                   className="mb-4 mt-8 text-lg"
                 />
                 <a
+                  target="_blank"
                   className="text-blue-400 underline"
                   href="https://www.w3.org/WAI/ARIA/apg/patterns/">
                   ARIA patterns
