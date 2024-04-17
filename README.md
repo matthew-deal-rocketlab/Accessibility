@@ -1,6 +1,6 @@
-# Accessability
+# Accessibility
 
-This repo was created to give a basic walkthorugh of accessibility for the web.
+This repo was created to give a basic walkthrough of accessibility for the web.
 
 ## Topics Covered
 
