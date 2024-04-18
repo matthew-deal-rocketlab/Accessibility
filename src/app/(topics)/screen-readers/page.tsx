@@ -21,6 +21,9 @@ export default function Page() {
       <section className="mx-auto mt-44 max-w-sm p-8">
         <div className="flex items-center space-x-4">
           <div
+            tabIndex={0}
+            role="checkbox"
+            aria-checked={isChecked}
             onClick={toggleCheckbox}
             onKeyDown={e => e.key === ' ' && toggleCheckbox()}
             className={cn(

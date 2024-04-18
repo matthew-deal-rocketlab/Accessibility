@@ -34,7 +34,7 @@ export default function Page() {
                     of a website.
                   </p>
                   <p className="mt-2 w-fit rounded-lg bg-zinc-700 p-2">
-                    {'<nav />'}
+                    {'<nav>'}
                   </p>
                 </section>
 
@@ -50,7 +50,7 @@ export default function Page() {
                     navigate to the main content.
                   </p>
                   <p className="mt-2 w-fit rounded-lg bg-zinc-700 p-2">
-                    {'<main />'}
+                    {'<main>'}
                   </p>
                 </section>
 
@@ -65,7 +65,7 @@ export default function Page() {
                     navigational elements or introductory content.
                   </p>
                   <p className="mt-2 w-fit rounded-lg bg-zinc-700 p-2">
-                    {'<header />'}
+                    {'<header>'}
                   </p>
                 </section>
 
@@ -81,11 +81,11 @@ export default function Page() {
                   </p>
 
                   <span className="mr-2 w-fit rounded-lg bg-zinc-700 p-2">
-                    {'<h1 />'}
+                    {'<h1>'}
                   </span>
                   <span className="w-fit rounded-lg bg-zinc-700 p-2">
                     {' '}
-                    {'<h2 />'}
+                    {'<h2>'}
                   </span>
                 </section>
 
@@ -100,7 +100,7 @@ export default function Page() {
                     distributed. Ideal for blog posts, news articles, etc.
                   </p>
                   <p className="mt-2 w-fit rounded-lg bg-zinc-700 p-2">
-                    {'<article />'}
+                    {'<article>'}
                   </p>
                 </section>
 
@@ -115,7 +115,7 @@ export default function Page() {
                     document. Typically includes a heading.
                   </p>
                   <p className="mt-2 w-fit rounded-lg bg-zinc-700 p-2">
-                    {'<section />'}
+                    {'<section>'}
                   </p>
                 </section>
 
@@ -131,7 +131,7 @@ export default function Page() {
                   </p>
                   <p className="mt-2 w-fit rounded-lg bg-zinc-700 p-2">
                     {' '}
-                    {'<aside/>'}
+                    {'<aside>'}
                   </p>
                 </section>
 
@@ -146,7 +146,7 @@ export default function Page() {
                     information like copyright, authorship, and related links.
                   </p>
                   <p className="mt-2 w-fit rounded-lg bg-zinc-700 p-2">
-                    {'<footer />'}
+                    {'<footer>'}
                   </p>
                 </section>
                 <section>
@@ -158,25 +158,25 @@ export default function Page() {
 
                   <div className="mt-2 flex flex-row gap-1">
                     <span className="mr-2 w-fit rounded-lg bg-zinc-700 p-2">
-                      {'<p />'}
+                      {'<p>'}
                     </span>
                     <span className="mr-2 w-fit rounded-lg bg-zinc-700 p-2">
-                      {'<div />'}
+                      {'<a>'}
                     </span>
                     <span className="w-fit rounded-lg bg-zinc-700 p-2">
-                      {'<strong />'}
+                      {'<strong>'}
                     </span>
                     <span className="w-fit rounded-lg bg-zinc-700 p-2">
-                      {'<span />'}
+                      {'<span>'}
                     </span>
                     <span className="mr-2 w-fit rounded-lg bg-zinc-700 p-2">
-                      {'<i />'}
+                      {'<i>'}
                     </span>
                     <span className="mr-2 w-fit rounded-lg bg-zinc-700 p-2">
-                      {'<time />'}
+                      {'<time>'}
                     </span>
                     <span className="mr-2 w-fit rounded-lg bg-zinc-700 p-2">
-                      {'<address />'}
+                      {'<address>'}
                     </span>
                     <span className="mr-2 w-fit rounded-lg bg-zinc-700 p-2">
                       {'and so on..'}
